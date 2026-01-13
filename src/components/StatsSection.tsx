@@ -99,7 +99,7 @@ const AnimatedCounter = ({
 
 const StatsSection = () => {
   return (
-    <section className="py-16 md:py-28 bg-gradient-to-b from-slate-50 to-slate-100 relative overflow-hidden">
+    <section className="pt-4 md:pt-20 pb-4 bg-gradient-to-b from-slate-50 to-slate-100 relative overflow-hidden">
   {/* Background decoration */}
   <div className="absolute inset-0 pointer-events-none">
     <div className="absolute top-10 left-1/4 w-64 h-64 bg-indigo-100/30 rounded-full blur-3xl" />

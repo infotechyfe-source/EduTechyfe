@@ -77,7 +77,7 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="py-12 md:py-24 bg-gradient-to-b from-background via-muted/30 to-background"
+      className="pt-12 md:pt-20 pb-4 bg-gradient-to-b from-background via-muted/30 to-background"
     >
       <div className="container mx-auto px-4">
         {/* Header */}

@@ -1,5 +1,4 @@
 import { Target, Eye, Rocket, MonitorSpeakerIcon, IdCard, IdCardIcon } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import {
   Users,
   User,
@@ -7,7 +6,7 @@ import {
 } from "lucide-react";
 const AboutSection = () => {
   return (
-    <section id="about" className="py-20 md:py-28 bg-gradient-to-b from-slate-50 to-slate-100">
+    <section id="about" className="pt-4 md:pt-20 pb-4 bg-gradient-to-b from-slate-50 to-slate-100">
   <div className="container mx-auto px-4">
 
     {/* Section Header */}

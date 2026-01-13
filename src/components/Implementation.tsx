@@ -3,27 +3,27 @@ import { Search, Database, GraduationCap, Rocket } from "lucide-react";
 const steps = [
   {
     icon: Search,
-    title: "Understand Your School",
+    title: "Discovery",
     description:
-      "We review your academic structure, classes, fee setup, and daily workflows to plan a smooth rollout.",
+      "We understand your academic structure, modules, workflows, and existing data sources.",
   },
   {
     icon: Database,
-    title: "Import Your Data",
+    title: "Data Import",
     description:
-      "Student records, staff details, classes, and fee data are securely migrated without any data loss.",
+      "Securely migrate students, staff, classes, fee heads, and historical records.",
   },
   {
     icon: GraduationCap,
-    title: "Train Your Team",
+    title: "Training",
     description:
-      "Simple, role-based training for admins, teachers, and staff so everyone is confident from day one.",
+      "Role-based onboarding for administrators, teachers, and support staff.",
   },
   {
     icon: Rocket,
-    title: "Launch & Support",
+    title: "Go Live",
     description:
-      "We go live with your system and provide hands-on support to ensure everything runs smoothly.",
+      "Assisted rollout with real-time monitoring and ongoing support.",
   },
 ];
 
@@ -31,65 +31,76 @@ export default function ImplementationTimeline() {
   return (
     <section
       id="implementation"
-      className="py-20 bg-slate-50 border-t border-slate-200"
+      className="py-24 md:py-32 bg-gradient-to-b from-background via-muted/40 to-background"
     >
       <div className="container mx-auto px-4">
 
         {/* Header */}
-        <div className="max-w-3xl mb-12">
-          <h2 className="text-3xl md:text-4xl font-semibold text-slate-900">
-            Smooth Implementation.
-            <span className="text-blue-600"> Zero Disruption.</span>
+        <div className="max-w-3xl mx-auto text-center mb-20">
+          <span className="inline-block text-accent font-semibold text-sm uppercase tracking-wider mb-4">
+            Implementation Journey
+          </span>
+
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
+            A Smooth Setup{" "}
+            <span className="text-gradient">
+              That Fits Your Academic Calendar
+            </span>
           </h2>
 
-          <p className="mt-3 text-slate-600 text-lg">
-            A simple, proven rollout process designed for real academic environments.
+          <p className="text-muted-foreground text-lg">
+            Our guided onboarding process ensures your school is live quickly,
+            confidently, and without operational disruption.
           </p>
         </div>
 
-        {/* Process Row */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+        {/* Steps */}
+        <div className="relative max-w-6xl mx-auto">
 
-          {steps.map((step, index) => (
-            <div
-              key={index}
-              className="
-            flex items-start gap-4
-            bg-white
-            border border-slate-200
-            rounded-xl
-            p-5
-            hover:shadow-sm
-            transition
-          "
-            >
-              {/* Icon */}
-              <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center">
-                <step.icon className="w-5 h-5" />
-              </div>
+          {/* Progress line */}
+          <div className="hidden md:block absolute top-10 left-0 right-0 h-px bg-gradient-to-r from-primary/30 via-accent/40 to-primary/30" />
 
-              {/* Text */}
-              <div>
-                <h3 className="text-sm font-semibold text-slate-900">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
+            {steps.map((step, index) => (
+              <div
+                key={index}
+                className="relative text-center group"
+              >
+                {/* Icon */}
+                <div className="relative z-10 mx-auto w-20 h-20 rounded-2xl bg-card border border-border flex items-center justify-center shadow-sm group-hover:shadow-lg transition-all">
+                  <step.icon className="w-9 h-9 text-primary group-hover:scale-110 transition-transform" />
+                </div>
+
+                {/* Step number */}
+                <div className="mt-4 text-sm font-semibold text-accent">
+                  Step {index + 1}
+                </div>
+
+                {/* Content */}
+                <h3 className="mt-2 text-xl font-bold text-foreground">
                   {step.title}
                 </h3>
 
-                <p className="mt-1 text-sm text-slate-600 leading-relaxed">
+                <p className="mt-3 text-muted-foreground text-sm leading-relaxed px-4">
                   {step.description}
                 </p>
               </div>
-            </div>
-          ))}
-
+            ))}
+          </div>
         </div>
 
-        {/* Trust Line */}
-        <div className="mt-10 text-sm text-slate-500">
-          Average go-live time: <span className="font-medium text-slate-700">2–4 weeks</span> · No downtime · Full staff support
+        {/* Bottom reassurance */}
+        <div className="mt-24 max-w-4xl mx-auto text-center bg-card border border-border rounded-2xl p-8 md:p-12 shadow-sm">
+          <h3 className="text-2xl font-bold text-foreground mb-3">
+            Go Live in Weeks — Not Months
+          </h3>
+          <p className="text-muted-foreground">
+            Our proven onboarding framework ensures fast adoption, minimal downtime,
+            and long-term success for your institution.
+          </p>
         </div>
 
       </div>
     </section>
-
   );
 }

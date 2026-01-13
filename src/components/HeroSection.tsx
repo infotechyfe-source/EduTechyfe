@@ -15,7 +15,7 @@ const HeroSection = () => {
         <div className="absolute -bottom-40 right-1/3 w-[700px] h-[700px] bg-blue-200/40 rounded-full blur-[140px]" />
       </div>
 
-      <div className="container mx-auto px-4 pt-28 relative z-10">
+      <div className="container mx-auto px-4 pt-24 pb-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
 
           {/* Badge */}

@@ -45,7 +45,7 @@ export default function IntegrationsSection() {
   return (
     <section
   id="integrations"
-  className="py-16 md:py-28 bg-gradient-to-b from-slate-50 to-slate-100 relative overflow-hidden"
+  className="pt-8 md:pt-20 pb-4 bg-gradient-to-b from-slate-50 to-slate-100 relative overflow-hidden"
 >
   <div className="container mx-auto px-4">
 
