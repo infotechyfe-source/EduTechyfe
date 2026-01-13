@@ -77,7 +77,7 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="pt-12 md:pt-20 pb-4 bg-gradient-to-b from-background via-muted/30 to-background"
+      className="pt-4 md:pt-20 pb-4 bg-gradient-to-b from-background via-muted/30 to-background"
     >
       <div className="container mx-auto px-4">
         {/* Header */}
@@ -128,7 +128,7 @@ export default function ContactSection() {
 
             <div className="mt-6 p-6 rounded-xl bg-primary/5 border border-primary/10">
               <p className="text-sm text-muted-foreground">
-                ⚡ Trusted by schools to manage admissions, fees,
+                Trusted by schools to manage admissions, fees,
                 academics, communication, and operations from a
                 single dashboard.
               </p>

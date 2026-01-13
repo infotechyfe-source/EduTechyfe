@@ -31,7 +31,7 @@ export default function ImplementationTimeline() {
   return (
     <section
       id="implementation"
-      className="py-24 md:py-32 bg-gradient-to-b from-background via-muted/40 to-background"
+      className="py-4 md:py-24 pb-4 bg-gradient-to-b from-background via-muted/40 to-background"
     >
       <div className="container mx-auto px-4">
 
