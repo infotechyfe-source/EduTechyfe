@@ -20,19 +20,19 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    content: "demo@yourschoolapp.com",
-    link: "mailto:demo@yourschoolapp.com",
+    content: "info.techyfe@gmail.com",
+    link: "mailto:info.techyfe@gmail.com",
   },
   {
     icon: Phone,
     title: "Phone",
-    content: "+91 98765 43210",
-    link: "tel:+919876543210",
+    content: "+91 97188 20229",
+    link: "tel:+919718820229",
   },
   {
     icon: Clock,
     title: "Support Hours",
-    content: "Mon – Sat | 9:00 AM – 7:00 PM",
+    content: "Mon – Sat | 10:00 AM – 7:00 PM",
   },
 ];
 
