@@ -82,9 +82,7 @@ export default function ContactSection() {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-12">
-          <span className="inline-block text-accent font-semibold text-sm uppercase tracking-wider mb-4">
-            Book a Demo
-          </span>
+         
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             See How Your School{" "}
             <span className="text-gradient">Runs Smarter</span>

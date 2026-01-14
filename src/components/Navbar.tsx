@@ -60,17 +60,16 @@ const Navbar = () => {
           </a>
 
           {/* DESKTOP NAV */}
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <button
                 key={link.href}
                 onClick={() => scrollToSection(link.href)}
-                className={`group relative px-3 py-2 font-semibold transition-colors duration-300
+                className={`group relative px-1 py-2 font-semibold transition-colors duration-300
     ${activeSection === link.href
                     ? "text-blue-600"
                     : "text-slate-700 hover:text-indigo-600"
-                  }
-  `}   >
+                  }`}   >
                 {link.label}
 
                 {/* Underline */}

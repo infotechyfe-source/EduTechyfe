@@ -31,15 +31,13 @@ export default function ImplementationTimeline() {
   return (
     <section
       id="implementation"
-      className="py-4 md:py-24 pb-4 bg-gradient-to-b from-background via-muted/40 to-background"
+      className="pt-4 md:pt-24 pb-4 bg-gradient-to-b from-background via-muted/40 to-background"
     >
       <div className="container mx-auto px-4">
 
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-20">
-          <span className="inline-block text-accent font-semibold text-sm uppercase tracking-wider mb-4">
-            Implementation Journey
-          </span>
+          
 
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
             A Smooth Setup{" "}

@@ -23,7 +23,7 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
           {/* Administrator */}
-          <div className="group bg-white rounded-3xl p-8 shadow-lg border border-indigo-200 hover:shadow-2xl transition-all duration-300 hover:ring-indigo-400 cursor-pointer">
+          <div className="group bg-gradient-to-br from-indigo-50 to bg-purple-100 rounded-3xl p-8 shadow-lg border border-indigo-200 hover:shadow-2xl transition-all duration-300 hover:ring-indigo-400 cursor-pointer">
             <div className="mb-6 w-16 h-16 rounded-full bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center text-white text-2xl transform group-hover:scale-110 transition-transform duration-300">
               <Settings className="w-8 h-8" />
             </div>
@@ -36,7 +36,7 @@ const AboutSection = () => {
           </div>
 
           {/* Teachers */}
-          <div className="group bg-white rounded-3xl p-8 shadow-lg border border-indigo-200 hover:shadow-2xl transition-all duration-300 cursor-pointer">
+          <div className="group bg-gradient-to-br from-green-50 to-teal-100 rounded-3xl p-8 shadow-lg border border-indigo-200 hover:shadow-2xl transition-all duration-300 cursor-pointer">
             <div className="mb-6 w-16 h-16 rounded-full bg-gradient-to-br from-green-400 to-teal-500 flex items-center justify-center text-white text-2xl transform group-hover:scale-110 transition-transform duration-300">
               <User className="w-8 h-8" />
             </div>
@@ -49,7 +49,7 @@ const AboutSection = () => {
           </div>
 
           {/* Parents */}
-          <div className="group bg-white rounded-3xl p-8 shadow-lg border border-indigo-200 hover:shadow-2xl transition-all duration-300 cursor-pointer">
+          <div className="group bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-3xl p-8 shadow-lg border border-indigo-200 hover:shadow-2xl transition-all duration-300 cursor-pointer">
             <div className="mb-6 w-16 h-16 rounded-full bg-gradient-to-br from-yellow-400 to-orange-500 flex items-center justify-center text-white text-2xl transform group-hover:scale-110 transition-transform duration-300">
               <Users className="w-8 h-8" />
             </div>
@@ -62,7 +62,7 @@ const AboutSection = () => {
           </div>
 
           {/* Students */}
-          <div className="group bg-white rounded-3xl p-8 shadow-lg border border-indigo-200 hover:shadow-2xl transition-all duration-300 cursor-pointer">
+          <div className="group bg-gradient-to-br from-pink-50 to-rose-100 rounded-3xl p-8 shadow-lg border border-indigo-200 hover:shadow-2xl transition-all duration-300 cursor-pointer">
             <div className="mb-6 w-16 h-16 rounded-full bg-gradient-to-br from-pink-500 to-rose-500 flex items-center justify-center text-white text-2xl transform group-hover:scale-110 transition-transform duration-300">
               <IdCardIcon className="w-8 h-8" />
             </div>
