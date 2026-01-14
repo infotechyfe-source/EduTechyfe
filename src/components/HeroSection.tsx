@@ -37,7 +37,7 @@ const HeroSection = () => {
 
           {/* Subheadline */}
           <p className="text-base md:text-xl text-slate-600 max-w-2xl mx-auto mb-12 leading-relaxed">
-            A modern cloud-based ERP that simplifies admissions, academics,
+            A modern cloud-based Software that simplifies admissions, academics,
             attendance, fees, exams, and parent communication — all from a single,
             intelligent dashboard.
           </p>
