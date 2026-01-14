@@ -67,7 +67,7 @@ export default function ImplementationTimeline() {
                 className="relative text-center group"
               >
                 {/* Icon */}
-                <div className="relative z-10 mx-auto w-20 h-20 rounded-2xl bg-card border border-border flex items-center justify-center shadow-sm group-hover:shadow-lg transition-all">
+                <div className="relative z-10 mx-auto w-20 h-20 rounded-2xl bg-card border border-indigo-200 flex items-center justify-center shadow-sm group-hover:shadow-lg transition-all">
                   <step.icon className="w-9 h-9 text-primary group-hover:scale-110 transition-transform" />
                 </div>
 
@@ -90,7 +90,7 @@ export default function ImplementationTimeline() {
         </div>
 
         {/* Bottom reassurance */}
-        <div className="mt-24 max-w-4xl mx-auto text-center bg-card border border-border rounded-2xl p-8 md:p-12 shadow-sm">
+        <div className="mt-24 max-w-4xl mx-auto text-center bg-card border border-indigo-200 rounded-2xl p-8 md:p-12 shadow-sm">
           <h3 className="text-2xl font-bold text-foreground mb-3">
             Go Live in Weeks — Not Months
           </h3>

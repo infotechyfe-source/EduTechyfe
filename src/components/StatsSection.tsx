@@ -136,7 +136,7 @@ const StatsSection = () => {
             text-center 
             bg-white 
             rounded-3xl 
-            border border-gray-200 
+            border border-indigo-200 
             px-4 py-6 sm:p-6 md:p-8
             shadow-sm
             hover:shadow-xl

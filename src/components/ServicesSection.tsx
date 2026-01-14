@@ -111,25 +111,17 @@ const ServicesSection = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="
-        group relative bg-white rounded-2xl p-7
-        border border-slate-200
-        transition-all duration-300
-        hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-100 cursor-pointer
-      "
-            >
+              className="group relative bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-2xl p-7 border border-indigo-200 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-100 cursor-pointer">
               {/* Icon */}
               <div
-                className="
-          mb-6 inline-flex items-center justify-center
-          w-14 h-14 rounded-xl
-          bg-blue-50 text-blue-600
-          group-hover:bg-blue-600 group-hover:text-white
-          transition-colors duration-300 cursor-pointer
-        "
-              >
+                className="mb-6 relative flex items-center justify-center w-14 h-14 rounded-xl 
+             bg-white text-indigo-600 group-hover:bg-gradient-to-br group-hover:from-blue-500 group-hover:to-indigo-600 group-hover:text-white cursor-pointer transform transition-all duration-300 ease-out hover:scale-110 hover:-rotate-3 shadow-sm hover:shadow-lg">
                 <service.icon className="w-7 h-7" />
+
+                {/* Optional subtle glow behind icon */}
+                <span className="absolute w-20 h-20 rounded-full bg-blue-100 opacity-30 group-hover:opacity-50 blur-xl transition-opacity duration-300"></span>
               </div>
+
 
               {/* Title */}
               <h3 className="text-lg font-semibold text-slate-900 mb-3">
@@ -141,17 +133,8 @@ const ServicesSection = () => {
                 {service.description}
               </p>
 
-              {/* Learn More */}
-              <div className="flex items-center text-sm font-medium text-blue-600">
-                <span className="relative">
-                  Learn more
-                  <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-blue-600 transition-all duration-300 group-hover:w-full" />
-                </span>
-                <ArrowRight className="w-4 h-4 ml-1 transition-transform duration-300 group-hover:translate-x-1" />
-              </div>
-
               {/* Hover border accent */}
-              <div className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-transparent group-hover:ring-blue-200 transition" />
+              <div className="pointer-events-none absolute inset-0 rounded-2xl ring-1 ring-transparent group-hover:ring-indigo-400 transition" />
             </div>
           ))}
         </div>

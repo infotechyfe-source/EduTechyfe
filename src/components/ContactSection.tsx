@@ -101,7 +101,7 @@ export default function ContactSection() {
             {contactInfo.map((info, i) => (
               <div
                 key={i}
-                className="flex gap-4 items-start p-4 rounded-xl bg-card border border-border"
+                className="flex gap-4 items-start p-4 rounded-xl bg-card border border-indigo-200"
               >
                 <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
                   <info.icon className="w-5 h-5 text-primary" />
@@ -126,7 +126,7 @@ export default function ContactSection() {
               </div>
             ))}
 
-            <div className="mt-6 p-6 rounded-xl bg-primary/5 border border-primary/10">
+            <div className="mt-6 p-6 rounded-xl bg-primary/5 border border-indigo-200">
               <p className="text-sm text-muted-foreground">
                 Trusted by schools to manage admissions, fees,
                 academics, communication, and operations from a
@@ -139,7 +139,7 @@ export default function ContactSection() {
           <div className="lg:col-span-3">
             <form
               onSubmit={handleSubmit}
-              className="bg-card rounded-2xl p-8 md:p-10 border border-border shadow-xl"
+              className="bg-card rounded-2xl p-8 md:p-10 border border-indigo-200 shadow-xl"
             >
               <h3 className="text-2xl font-bold mb-8">
                 Request a Personalized Demo

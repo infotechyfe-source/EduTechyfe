@@ -143,13 +143,11 @@ const Footer = () => {
             <ul className="space-y-4 text-sm">
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4" />
-                <span>Sales & Demo Support</span>
+                <span>+91 9718820229</span>
               </li>
-
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4" />
-                <span>sales@schoolerppro.com</span>
-              </li>
+                <span>info.techyfe@gmail.com</span> </li>
             </ul>
           </div>
 

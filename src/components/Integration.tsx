@@ -79,7 +79,7 @@ export default function IntegrationsSection() {
         {integrations.map((item, index) => (
           <div
             key={index}
-            className="group relative rounded-3xl border border-slate-200 bg-white p-8 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 cursor-pointer"
+            className="group relative rounded-3xl border border-indigo-200 bg-white p-8 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 cursor-pointer"
           >
             {/* Icon */}
             <div

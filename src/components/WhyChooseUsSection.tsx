@@ -73,7 +73,7 @@ const WhyChooseUsSection = () => {
       {features.map((feature, index) => (
         <div
           key={index}
-          className="group bg-white rounded-3xl p-8 shadow-lg border border-slate-200 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 cursor-pointer"
+          className="group bg-white rounded-3xl p-8 shadow-lg border border-indigo-200 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 cursor-pointer"
         >
           {/* Icon */}
           <div className="mb-6 w-16 h-16 rounded-full bg-gradient-to-br from-indigo-500 to-blue-500 flex items-center justify-center text-white text-2xl transform group-hover:scale-110 transition-transform duration-300">
