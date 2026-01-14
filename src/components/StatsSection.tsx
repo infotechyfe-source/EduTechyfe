@@ -99,55 +99,60 @@ const StatsSection = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-14 md:mb-20">
-          <span className="inline-block text-indigo-600 font-semibold text-sm uppercase tracking-wider mb-3">
+        <div className="text-center max-w-3xl mx-auto mb-12 md:mb-20">
+          <span className="inline-block text-indigo-600 font-semibold text-xs sm:text-sm uppercase tracking-wider mb-3">
             Trusted by Educational Institutions
           </span>
 
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 mb-5">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 mb-4 md:mb-5">
             Real Impact Through
             <span className="block text-indigo-600">
               Smarter School Management
             </span>
           </h2>
 
-          <p className="text-slate-600 text-base md:text-lg">
+          <p className="text-slate-600 text-sm sm:text-base md:text-lg">
             Helping schools streamline operations, improve visibility, and
             deliver better academic outcomes.
           </p>
         </div>
 
         {/* Stats Grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8">
           {stats.map((stat, index) => (
             <div
               key={index}
-              className={`
-                bg-white 
-                rounded-3xl 
-                p-6 md:p-8 
-                text-center 
-                border border-indigo-200
-                shadow-sm 
-                hover:shadow-lg 
-                hover:-translate-y-1 
-                transition-all
-              `}
+              className="
+            bg-white
+            rounded-2xl md:rounded-3xl
+            p-4 sm:p-6 md:p-8
+            text-center
+            border border-indigo-200
+            shadow-sm
+            hover:shadow-lg
+            hover:-translate-y-1
+            transition-all
+          "
             >
               {/* Icon */}
               <div
-                className={`mx-auto mb-4 w-14 h-14 rounded-xl flex items-center justify-center ${stat.iconStyle}`}
+                className={`mx-auto mb-3 sm:mb-4 w-12 h-12 sm:w-14 sm:h-14 rounded-xl flex items-center justify-center ${stat.iconStyle}`}
               >
-                <stat.icon className="w-7 h-7" />
+                <stat.icon className="w-6 h-6 sm:w-7 sm:h-7" />
               </div>
 
-              <AnimatedCounter end={stat.value} suffix={stat.suffix} />
+              {/* Counter */}
+              <div className="leading-none">
+                <AnimatedCounter end={stat.value} suffix={stat.suffix} />
+              </div>
 
-              <div className="mt-2 font-semibold text-slate-900">
+              {/* Label */}
+              <div className="mt-2 font-semibold text-sm sm:text-base text-slate-900">
                 {stat.label}
               </div>
 
-              <div className="mt-1 text-sm text-slate-600">
+              {/* Description */}
+              <div className="mt-1 text-xs sm:text-sm text-slate-600 leading-snug">
                 {stat.description}
               </div>
             </div>
@@ -155,6 +160,7 @@ const StatsSection = () => {
         </div>
       </div>
     </section>
+
   );
 };
 

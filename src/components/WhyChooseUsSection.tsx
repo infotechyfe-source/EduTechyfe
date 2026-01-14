@@ -63,9 +63,7 @@ const WhyChooseUsSection = () => {
 
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-20">
-          <span className="inline-block mb-4 text-sm font-semibold uppercase tracking-wide text-blue-600">
-            Why Schools Choose Us
-          </span>
+         
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 mb-6">
             A Smarter Way to
