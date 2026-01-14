@@ -77,12 +77,12 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="pt-4 md:pt-20 pb-4 bg-gradient-to-b from-background via-muted/30 to-background"
+      className="scroll-mt-16 pt-4 md:pt-20 pb-4 bg-gradient-to-b from-background via-muted/30 to-background"
     >
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-12">
-         
+
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             See How Your School{" "}
             <span className="text-gradient">Runs Smarter</span>
@@ -191,11 +191,36 @@ export default function ContactSection() {
                 type="submit"
                 size="lg"
                 disabled={isSubmitting}
-                className="w-full group"
+                className="
+    w-full 
+    relative 
+    overflow-hidden
+    rounded-xl
+    bg-gradient-to-r from-indigo-600 to-blue-600
+    text-white
+    font-semibold
+    shadow-lg
+    transition-all duration-300
+    hover:shadow-xl hover:scale-[1.02]
+    focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2
+    disabled:opacity-60 disabled:cursor-not-allowed disabled:shadow-none
+    group
+  "
               >
-                {isSubmitting ? "Submitting..." : "Book Demo"}
-                <Send className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                <span className="relative z-10 flex items-center justify-center">
+                  {isSubmitting ? "Submitting..." : "Book Demo"}
+                  <Send className="w-5 h-5 ml-2 transition-transform duration-300 group-hover:translate-x-1" />
+                </span>
+
+                {/* subtle shine effect */}
+                <span className="pointer-events-none absolute inset-0
+    bg-gradient-to-r from-white/10 via-white/30 to-white/10
+    opacity-0
+    group-hover:opacity-100
+    transition-opacity duration-300
+  " />
               </Button>
+
             </form>
           </div>
         </div>

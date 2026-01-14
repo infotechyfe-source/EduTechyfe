@@ -31,7 +31,7 @@ export default function ImplementationTimeline() {
   return (
     <section
       id="implementation"
-      className="pt-4 md:pt-24 pb-4 bg-gradient-to-b from-background via-muted/40 to-background"
+      className="scroll-mt-16 pt-4 md:pt-24 pb-4 bg-gradient-to-b from-background via-muted/40 to-background"
     >
       <div className="container mx-auto px-4">
 

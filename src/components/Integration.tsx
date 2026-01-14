@@ -41,7 +41,7 @@ export default function IntegrationsSection() {
   return (
     <section
       id="integrations"
-      className="pt-4 md:pt-24 pb-4 bg-slate-50"
+      className="scroll-mt-16 pt-4 md:pt-24 pb-4 bg-slate-50"
     >
       <div className="container mx-auto px-4">
 

@@ -57,7 +57,7 @@ const WhyChooseUsSection = () => {
   return (
     <section
       id="why-us"
-      className="py-8 md:py-24 bg-gradient-to-b from-slate-50 to-slate-100"
+      className="scroll-mt-16 py-4 md:py-24 pb-4 bg-gradient-to-b from-slate-50 to-slate-100"
     >
       <div className="container mx-auto px-4">
 
