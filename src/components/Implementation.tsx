@@ -36,10 +36,10 @@ export default function ImplementationTimeline() {
       <div className="container mx-auto px-4">
 
         {/* Header */}
-        <div className="max-w-3xl mx-auto text-center mb-20">
+        <div className="max-w-4xl mx-auto text-center mb-20">
           
 
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
+          <h2 className="text-2xl md:text-4xl font-bold text-foreground mb-6 leading-tight">
             A Smooth Setup{" "}
             <span className="text-gradient">
               That Fits Your Academic Calendar

@@ -99,14 +99,13 @@ const StatsSection = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-12 md:mb-20">
+        <div className="text-center max-w-5xl mx-auto mb-8 md:mb-16">
           <span className="inline-block text-indigo-600 font-semibold text-xs sm:text-sm uppercase tracking-wider mb-3">
             Trusted by Educational Institutions
           </span>
 
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 mb-4 md:mb-5">
-            Real Impact Through
-            <span className="block text-indigo-600">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-slate-900 mb-4 md:mb-5">
+            Real Impact Through <span className=" text-indigo-600">
               Smarter School Management
             </span>
           </h2>

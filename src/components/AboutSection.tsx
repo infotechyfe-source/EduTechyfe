@@ -11,7 +11,7 @@ const AboutSection = () => {
 
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center mb-20">
-          <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight">
+          <h2 className="text-xl md:text-2xl font-extrabold text-slate-900 leading-tight">
             Built for Every Role in Your School
           </h2>
           <p className="mt-4 text-lg md:text-xl text-slate-600">

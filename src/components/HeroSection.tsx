@@ -60,7 +60,7 @@ const HeroSection = () => {
             </button>
 
             <button
-              onClick={() => scrollToSection("#features")}
+              onClick={() => scrollToSection("#services")}
               className="
                 px-8 py-4 rounded-xl
                 border border-slate-300

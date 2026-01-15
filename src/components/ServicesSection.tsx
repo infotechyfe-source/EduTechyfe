@@ -11,7 +11,6 @@ import {
   LibraryIcon,
   TrophyIcon,
   Monitor,
-  ArrowRight,
 } from "lucide-react";
 
 const services = [

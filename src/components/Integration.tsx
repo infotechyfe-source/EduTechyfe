@@ -101,7 +101,7 @@ export default function IntegrationsSection() {
         </div>
 
         {/* Bottom Statement */}
-        <div className="rounded-3xl border border-slate-200 bg-white p-12 md:p-16 text-center shadow-sm">
+        <div className="rounded-2xl border border-indigo-200 bg-gradient-to-bl from-fuchsia-50 to-rose-100 p-4 md:p-8 text-center shadow-sm">
           <h3 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4">
             Designed to Fit Your School — Not the Other Way Around
           </h3>
