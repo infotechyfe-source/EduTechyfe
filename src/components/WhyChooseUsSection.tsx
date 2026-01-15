@@ -62,7 +62,7 @@ const WhyChooseUsSection = () => {
       <div className="container mx-auto px-4">
 
         {/* Header */}
-        <div className="max-w-3xl mx-auto text-center mb-20">
+        <div className="max-w-5xl mx-auto text-center mb-20">
          
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 mb-6">

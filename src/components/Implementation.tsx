@@ -36,8 +36,7 @@ export default function ImplementationTimeline() {
       <div className="container mx-auto px-4">
 
         {/* Header */}
-        <div className="max-w-4xl mx-auto text-center mb-20">
-          
+        <div className="w-full md:max-w-5xl md:mx-auto text-center mb-14 px-2">
 
           <h2 className="text-2xl md:text-4xl font-bold text-foreground mb-6 leading-tight">
             A Smooth Setup{" "}
@@ -46,14 +45,14 @@ export default function ImplementationTimeline() {
             </span>
           </h2>
 
-          <p className="text-muted-foreground text-lg">
+         <p className="text-muted-foreground text-base md:text-lg leading-relaxed">
             Our guided onboarding process ensures your school is live quickly,
             confidently, and without operational disruption.
           </p>
         </div>
 
         {/* Steps */}
-        <div className="relative max-w-6xl mx-auto">
+        <div className="relative w-full md:max-w-6xl md:mx-auto">
 
           {/* Progress line */}
           <div className="hidden md:block absolute top-10 left-0 right-0 h-px bg-gradient-to-r from-primary/30 via-accent/40 to-primary/30" />
@@ -79,7 +78,7 @@ export default function ImplementationTimeline() {
                   {step.title}
                 </h3>
 
-                <p className="mt-3 text-muted-foreground text-sm leading-relaxed px-4">
+               <p className="mt-3 text-muted-foreground text-sm leading-relaxed md:px-4">
                   {step.description}
                 </p>
               </div>
@@ -88,11 +87,11 @@ export default function ImplementationTimeline() {
         </div>
 
         {/* Bottom reassurance */}
-        <div className="mt-24 max-w-4xl mx-auto text-center bg-card border border-indigo-200 rounded-2xl p-8 md:p-12 shadow-sm">
+        <div className="mt-16 w-full md:max-w-4xl md:mx-auto text-center bg-card border border-indigo-200 rounded-2xl p-6 md:p-12 shadow-sm">
           <h3 className="text-2xl font-bold text-foreground mb-3">
             Go Live in Weeks — Not Months
           </h3>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground leading-relaxed">
             Our proven onboarding framework ensures fast adoption, minimal downtime,
             and long-term success for your institution.
           </p>

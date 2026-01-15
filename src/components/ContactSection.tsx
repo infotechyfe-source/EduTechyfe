@@ -81,13 +81,13 @@ export default function ContactSection() {
     >
       <div className="container mx-auto px-4">
         {/* Header */}
-        <div className="max-w-5xl mx-auto text-center mb-12">
+       <div className="w-full md:max-w-5xl md:mx-auto text-center mb-12 px-2">
 
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-6">
             See How Your School{" "}
             <span className="text-gradient">Runs Smarter</span>
           </h2>
-          <p className="text-muted-foreground text-lg">
+          <p className="text-muted-foreground text-base md:text-lg leading-relaxed">
             Schedule a personalized demo tailored for principals,
             administrators, teachers, and IT teams.
           </p>

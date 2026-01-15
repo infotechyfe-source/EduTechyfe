@@ -96,6 +96,28 @@ const HeroSection = () => {
               </div>
             ))}
           </div>
+          {/* WhatsApp Chat CTA */}
+          <div className="mt-14 flex justify-center">
+            <a
+              href="https://wa.me/919718820229?text=Hi%20I%20want%20to%20know%20more%20about%20your%20school%20management%20software"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center gap-3 px-7 py-4 rounded-2xl bg-gradient-to-r from-green-500 to-emerald-500 text-white font-semibold shadow-lg shadow-green-500/30 hover:shadow-xl hover:shadow-green-500/40 hover:scale-[1.04] transition-all duration-300">
+              {/* WhatsApp Icon */}
+              <svg
+                className="w-6 h-6 fill-current"
+                viewBox="0 0 32 32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M16.003 3C9.383 3 4 8.383 4 15.003c0 2.65.87 5.1 2.34 7.08L4 29l7.15-2.27c1.94 1.06 4.16 1.67 6.85 1.67C24.62 28.4 30 23.02 30 16.4 30 9.78 24.62 3 16.003 3zm6.92 17.38c-.29.82-1.44 1.5-2.3 1.6-.6.1-1.37.15-4.4-.94-3.88-1.36-6.37-4.69-6.56-4.95-.18-.27-1.58-2.1-1.58-4.01s1-2.84 1.36-3.23c.36-.4.79-.5 1.05-.5h.76c.24 0 .56-.1.87.66.31.76 1.05 2.6 1.14 2.79.1.2.17.44.03.71-.14.27-.21.44-.42.68-.2.24-.43.54-.62.72-.2.2-.4.42-.17.83.23.4 1.02 1.68 2.2 2.73 1.52 1.36 2.8 1.78 3.2 1.98.4.2.63.17.86-.1.24-.27.99-1.16 1.26-1.56.27-.4.53-.34.89-.2.36.14 2.3 1.09 2.7 1.29.4.2.66.3.76.46.1.17.1.93-.19 1.75z" />
+              </svg>
+
+              <span className="text-base">
+                Chat with WhatsApp Agent
+              </span>
+            </a>
+          </div>
+
         </div>
       </div>
 
